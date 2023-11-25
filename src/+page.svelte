@@ -1,8 +1,8 @@
 <script>
-  let rockImg = "src/image/rock.png";
-  let paperImg = "src/image/paper.png";
-  let scissorsImg = "src/image/scissors.png";
-  let githubImg = "src/image/github.png";
+  import rockImg from "./lib/assets/rock.png";
+  import paperImg from "./lib/assets/paper.png";
+  import scissorsImg from "./lib/assets/scissors.png";
+  import githubImg from "./lib/assets/github.png";
 
   let userScore = 0;
   let cmpScore = 0;
@@ -213,10 +213,6 @@
     background: transparent;
     border: none !important;
     font-size: 0;
-  }
-
-  #scoreResult {
-    padding: 10px;
   }
 
   #github {
